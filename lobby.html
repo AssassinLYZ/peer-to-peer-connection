@@ -3,21 +3,23 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,300&family=Poppins:wght@400;600;900&display=swap" rel="stylesheet">
     <title>PeerChat</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='lobby.css'>
+    <link rel="shortcut icon" href="./icons/join.png" type="image/png">
 </head>
 <body>
     
     <main id="lobby-container">
         <div id="form-container">
             <div id="form__container__header">
-                <p>👋 Create OR Join a Room</p>
+                <img src="./icons/join.png" alt=""><p>Create OR Join a Room</p>
             </div>
 
             <div id="form__content__wrapper">
                 <form id="join-form">
-                    <input type="text" name="invite_link" required/>
+                    <input type="text" name="invite_link" required placeholder="Enter the room Id"/>
                     <input type="submit" value="Join Room" />
                 </form>
             </div>

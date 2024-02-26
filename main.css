@@ -31,7 +31,7 @@
     height:170px;
     width:300px;
     border-radius:5px;
-    border:2px solid #b366f9;
+    border:2px solid white;
 }
 
 #controls{
@@ -44,7 +44,7 @@
 }
 
 .control-container{
-    background-color: rgb(171,102,249, .9);
+    background-color: black;
     padding: 20px;
     border-radius: 50%;
     display: flex;

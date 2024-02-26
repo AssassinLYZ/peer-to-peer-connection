@@ -1,13 +1,12 @@
 body{
-    background-color: #1a1a1a;
     color: #fff;
+     font-family: "Poppins", sans-serif !important;
 }
 
 #form-container{
     width: 90%;
     max-width: 600px;
-    border-radius: 10px;
-    background-color: #262625;
+    border:black 5px solid;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -19,11 +18,11 @@ body{
     border-radius: 10px 10px 0 0;
     padding: 30px;
     text-align: center;
-    background-color: #363739;
     margin: 0;
     font-size: 18px;
     font-size: 300;
     line-height: 0;
+    color:black;
   }
 
   #form__content__wrapper{
@@ -32,19 +31,26 @@ body{
 
 input {
     box-sizing: border-box;
-    color: #fff;
+    color: black;
     width: 100%;
     margin: 0;
     border: none;
     border-radius: 5px;
     padding: 16px 20px;
     font-size: 15px;
-    background-color: #3f434a;
+    background-color: white;
+    border: 2px solid black;
     margin-top: 32px;
+     font-family: "Poppins", sans-serif !important;
+    
   }
- 
+ input:-internal-autofill-selected {
+   background-color: white !important;
+ }
  
   input[type='submit'] {
-    background-color: #845695;
+    background-color: black;
+    color: white;
+     cursor: pointer;
  
   }
